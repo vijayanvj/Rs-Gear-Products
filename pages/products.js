@@ -4,25 +4,40 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const allProducts = [
-  { img: '/images/image1.png', title: 'Gearbox Model A', desc: 'Heavy-duty gearbox built for high torque demands.' },
-  { img: '/images/image2.png', title: 'Gearbox Model B', desc: 'Compact gearbox for textile and automation industries.' },
-  { img: '/images/image3.png', title: 'Roller Shaft', desc: 'Precision roller shaft with minimal vibration.' },
-  { img: '/images/image4.png', title: 'Motor Housing', desc: 'Aluminum motor housing for optimal heat dissipation.' },
-  { img: '/images/image5.png', title: 'Coupling Unit', desc: 'Flexible coupling to dampen vibration and noise.' },
-  { img: '/images/image6.png', title: 'Gear Shaft Assembly', desc: 'Integrated gear-shaft system for minimal backlash.' },
-  { img: '/images/image7.png', title: 'Gearbox Casing', desc: 'Cast iron casing for heavy-duty gearbox support.' },
-  { img: '/images/image8.png', title: 'Motor Base', desc: 'Robust motor base with precision mounting.' },
-  { img: '/images/image9.png', title: 'Drive Pulley', desc: 'Steel pulley for belt-driven systems.' },
-  { img: '/images/image11.png', title: 'Crusher Frame', desc: 'Support frame for industrial crushers.' },
-  { img: '/images/image12.png', title: 'Drive Housing', desc: 'Precision drive housing for shaft alignment.' },
-  { img: '/images/image13.png', title: 'Crusher Base', desc: 'Solid base for heavy crusher machinery.' },
-  { img: '/images/image14.png', title: 'Pinion Stand', desc: 'Pinion support stand for gear engagement.' },
-  { img: '/images/image15.png', title: 'Motor Mount', desc: 'Steel motor mount with shock isolation.' },
-  { img: '/images/image16.png', title: 'Hydraulic Head', desc: 'Hydraulic head for fluid control.' },
-  { img: '/images/image17.png', title: 'Crusher Hopper', desc: 'Feed hopper for efficient material flow.' },
-  { img: '/images/image18.png', title: 'Gear Wheel', desc: 'Precision-cut gear wheel with hardened teeth.' },
-  { img: '/images/image19.png', title: 'End Bearing Block', desc: 'Bearing block for rotational shafts.' },
+  { img: '/images/image9.png', title: 'Crown Type Special (1:5)', desc: 'Specially made for Coir Mills.' },
+  { img: '/images/image13.png', title: 'Auto Feeder (1:600), Heavy Type (1:600)', desc: 'Double reduction drive.' },
+  { img: '/images/image12.png', title: 'Gear Box 400 Model (1:17) & (1:35)', desc: 'For Conveyor, Bunker, Screener.' },
+  { img: '/images/image11.png', title: 'Gear Box 300 Model (1:16) & (1:32)', desc: 'For Conveyor, Bunker, Screener.' },
+  { img: '/images/image1.png', title: 'Bearing Block', desc: 'Customized bearing block for Coir Mills.' },
+  { img: '/images/image2.png', title: 'Sallaidai Roller', desc: 'Designed for Coir Mills.' },
+  { img: '/images/image3.png', title: 'Specialized Roller', desc: 'Includes shaft for heavy-duty use.' },
+  { img: '/images/image4.png', title: 'Conveyor Cone Roller', desc: 'Available in 8" and 10" sizes.' },
+  { img: '/images/image6.png', title: 'Pulley', desc: 'Sizes: 8×1B, 10×1B, 12×1B, 14×1B, 16×1B, 20×2B, 24×2B.' },
+  { img: '/images/image14.png', title: 'Defibering Machine', desc: 'Efficient processing of bristle fibers.' },
+  { img: '/images/image15.png', title: 'Screener', desc: 'Precision screening for coir material.' },
+  { img: '/images/image16.png', title: 'Crusher', desc: 'Heavy-duty crushing for coir operations.' },
+  { img: '/images/image17.png', title: 'Coir Curling Machine', desc: 'Used for curled coir rope manufacturing.' },
+  { img: '/images/image18.png', title: 'Cleaner', desc: 'Removes impurities from coir fiber.' },
+  { img: '/images/image19.png', title: 'Baling Press', desc: 'Suitable for packing coir and other materials.' }
 ];
+
+// const allProducts = [
+//   { img: '/images/image9.png', title: 'Crown Type Special (1:5)', desc: 'Specialy made for Coir Mill.' },
+//   { img: '/images/image12.png', title: 'Auto Feeder (1:600) , heavy type ( 1:600)', desc: 'Double Reduction.' },
+//   { img: '/images/image11.png', title: '', desc: 'Conveyor, Bunker , Scrrener.' },
+//   { img: '/images/image13.png', title: 'Gear Box 300 Model (1:16) & (1:32)', desc: 'Conveyor ,Bunker , Scrrener..' },
+//   { img: '/images/image1.png', title: 'Bearing Block', desc: 'Customized Bearing Block for Coir Mils.' },
+//   { img: '/images/image2.png', title: 'Sallaidai Roller', desc: 'For Coir Mils.' },
+//   { img: '/images/image3.png', title: 'Specialiced Roller', desc: 'With Shaft.' },
+//   { img: '/images/image4.png', title: 'Conveyor Cone Roller', desc: '8 Inch , 10 Inch .' },
+//   { img: '/images/image6.png', title: 'Pully ', desc: '(8*1 B) ,(10*1 B),(12*1 B),(14*1 B),(16*1 B),(20*2 B),(24*2 B)' },
+//   { img: '/images/image14.png', title: 'DE Fibring Machine ', desc: 'For Bristle Fibers.' },
+//   { img: '/images/image15.png', title: 'Screener', desc: '' },
+//   { img: '/images/image16.png', title: 'Crusher', desc: '' },
+//   { img: '/images/image17.png', title: 'Coir Curling Machine', desc: '' },
+//   { img: '/images/image18.png', title: 'Cleaner', desc: '' },
+//   { img: '/images/image19.png', title: 'Baling Press', desc: 'Special for any Items.' },
+// ];
 
 export default function Products() {
   const [modal, setModal] = useState({ show: false, title: '', desc: '', img: '' });

@@ -17,18 +17,20 @@ export default function Home() {
       <main>
         {/* Hero Section */}
         <section className="hero-section text-center py-5 bg-dark text-white">
-          <div className="container">
-            <h1 className="display-5 fw-bold mb-3">
-              Precision Engineering for Motor Control Systems
-            </h1>
-            <p className="lead mb-4">
-              Empowering heavy industry with reliable, high-performance gearbox and drive solutions.
-            </p>
-            <a href="/products" className="btn btn-warning btn-lg">
-              Explore Products
-            </a>
-          </div>
-        </section>
+  <div className="container">
+    <h1 className="display-5 fw-bold mb-3">
+      Coir Mill Machinery Manufacturer
+    </h1>
+    <p className="lead mb-4">
+      Supplying precision-built shredders, defibering units, and gear systems for high-performance coir fiber production.
+      We  Export all the Produts.
+    </p>
+    <a href="/products" className="btn btn-warning btn-lg">
+      Explore Products
+    </a>
+  </div>
+</section>
+
 
         {/* Features Section */}
         <section className="py-5 bg-light">
@@ -71,7 +73,8 @@ export default function Home() {
               <div className="col-md-4">
                 <div className="p-4 bg-secondary rounded">
                   <i className="fas fa-business-time fa-2x mb-3 text-warning" />
-                  <h5 className="fw-bold">15+ Years Experience</h5>
+                  <h5 className="fw-bold">A UNIT OF REW
+25+ Years Experience</h5>
                   <p>Proven expertise across multiple heavy industries.</p>
                 </div>
               </div>
@@ -87,7 +90,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials */}
-        <section className="py-5 bg-light">
+        {/* <section className="py-5 bg-light">
           <div className="container text-center">
             <h2 className="mb-4">What Our Clients Say</h2>
             <div className="row g-4">
@@ -111,10 +114,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Industries Served */}
-        <section className="py-5 bg-dark text-white">
+        {/* <section className="py-5 bg-dark text-white">
           <div className="container text-center">
             <h2 className="mb-4">Industries We Serve</h2>
             <div className="d-flex flex-wrap justify-content-center gap-3">
@@ -125,7 +128,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       {/* Footer */}

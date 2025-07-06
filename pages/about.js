@@ -13,8 +13,8 @@ export default function About() {
         {/* Hero Banner */}
         <section className="hero-section text-white text-center d-flex align-items-center" style={{ minHeight: '400px', background: 'linear-gradient(135deg, #1f2937, #111827)' }}>
           <div className="container">
-            <h1 className="display-4 fw-bold">Engineering Excellence for Every Industry</h1>
-            <p className="lead mt-3">Delivering innovation, precision, and strength for 15+ years</p>
+            <h1 className="display-4 fw-bold">Engineering Excellence for Coir  Industry</h1>
+            <p className="lead mt-3">Delivering innovation, precision, and strength for 25+ years</p>
           </div>
         </section>
 
@@ -26,7 +26,7 @@ export default function About() {
                 <h2 className="mb-3">Who We Are</h2>
                 <p>
                   RS ENGINEERING PRODUCTS is a pioneer in designing and manufacturing robust industrial machinery
-                  components that drive productivity and durability. For over 15 years, we've served sectors
+                  components that drive productivity and durability. For over25 years, we've served sectors
                   like textile, steel, power, and cement with gearboxes, shafts, housings, and customized solutions.
                 </p>
                 <p>
@@ -73,30 +73,28 @@ export default function About() {
 
         {/* Experience Timeline */}
         <section className="py-5">
-          <div className="container">
-            <h2 className="text-center mb-4">Our Journey</h2>
-            <div className="timeline border-start border-2 border-warning ps-4">
-              <div className="mb-3">
-                <h6><strong>2009</strong> – Revanth Engineering Works was established</h6>
-              </div>
-              <div className="mb-3">
-                <h6><strong>2012</strong> – Started supplying to the textile industry</h6>
-              </div>
-              <div className="mb-3">
-                <h6><strong>2015</strong> – Expanded into steel and cement sectors</h6>
-              </div>
-              <div className="mb-3">
-                <h6><strong>2018</strong> – Surpassed 100+ industrial clients</h6>
-              </div>
-              <div className="mb-3">
-                <h6><strong>2024</strong> – Launched precision automated gearboxes</h6>
-              </div>
-            </div>
-          </div>
-        </section>
+  <div className="container">
+    <h2 className="text-center mb-4">Our Journey</h2>
+    <div className="timeline border-start border-2 border-warning ps-4">
+      <div className="mb-3">
+        <h6>
+          <strong>1998</strong> – Revanth Engineering Works was established.<br />
+          We have manufactured over <strong>50 Defibering Machines</strong> to date.
+        </h6>
+      </div>
+      <div className="mb-3">
+        <h6>
+          <strong>2012</strong> – Began manufacturing specialized <strong>Gearboxes</strong> for Coir Mills.<br />
+          We have supplied more than <strong>2,000 Gearboxes</strong> across India.
+        </h6>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* Industries Served */}
-        <section className="py-5 bg-white text-center">
+        {/* <section className="py-5 bg-white text-center">
           <div className="container">
             <h2 className="mb-4">Industries We Serve</h2>
             <p className="lead">We proudly deliver to the following sectors:</p>
@@ -109,7 +107,7 @@ export default function About() {
               <span className="badge bg-secondary fs-6 py-2 px-3">Mining</span>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Footer */}
         <footer className="bg-dark text-white text-center py-4">

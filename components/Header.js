@@ -28,7 +28,7 @@ export default function Header() {
             <h5 className="mb-0 fw-bold">
               RS <span className="text-warning">ENGINEERING PRODUCTS</span>
             </h5>
-            <small className="text-warning fw-semibold">GSTIN: 33JGUPS0061J1ZV</small>
+            <small className="text-warning fw-semibold">GSTIN: 33JGUPS0061J1ZV | IEC: JGUPS0061J</small>
           </div>
         </div>
 
