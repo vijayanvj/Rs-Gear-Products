@@ -117,19 +117,8 @@ export default function Home() {
         </section> */}
 
         {/* Industries Served */}
-        {/* <section className="py-5 bg-dark text-white">
-          <div className="container text-center">
-            <h2 className="mb-4">Industries We Serve</h2>
-            <div className="d-flex flex-wrap justify-content-center gap-3">
-              {['Textile', 'Cement', 'Steel', 'Power', 'Mining', 'Automation'].map((industry, idx) => (
-                <span key={idx} className="badge bg-secondary fs-6 px-3 py-2">
-                  {industry}
-                </span>
-              ))}
-            </div>
-          </div>
-        </section> */}
       </main>
+ 
 
       {/* Footer */}
       <footer className="bg-black text-white text-center py-4">

@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer';
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end('Method Not Allowed');
 
-  const { name, email,  subject, message } = req.body;
+  const { name, email, subject, message } = req.body;
 
   try {
     const transporter = nodemailer.createTransport({
@@ -46,8 +46,6 @@ export default async function handler(req, res) {
     </div>
   `,
 };
-
-
     await transporter.sendMail(mailOptions);
     return res.status(200).json({ success: true, message: 'Message sent successfully!' });
   } catch (error) {
