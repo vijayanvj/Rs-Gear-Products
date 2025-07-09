@@ -9,14 +9,16 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'vijayngt1@gmail.com', // Replace
-        pass: 'mxoi gynf uwue fpzk',   // Use App Password (not regular password)
+        // user: 'vijayngt1@gmail.com', // Replace
+        // pass: 'mxoi gynf uwue fpzk',   // Use App Password (not regular password)
+         user: 'rsengineeringproducts@gmail.com', // Replace
+        pass: 'wgqg qbwo fqrd xzbw',
       },
     });
 
    const mailOptions = {
   from: `"RS Engineering Website" <${email}>`,
-  to: 'vijayngt1@gmail.com',
+  to: 'rsengineeringproducts@gmail.com',
   subject: `📩 New Inquiry from ${name} – ${subject}`,
   html: `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #eee; border-radius: 6px; padding: 20px; background-color: #f9f9f9;">
