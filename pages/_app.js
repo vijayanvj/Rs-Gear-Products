@@ -13,7 +13,7 @@ import Head from 'next/head';
   <link rel="canonical" href="https://rs-gear-products.vercel.app" />
 
   {/* ✅ Google Search Console verification meta tag */}
-  <meta name="google-site-verification" content="googled494bffc5af251be.html" />
+  <meta name="google-site-verification" content="_8lxFnkoU5VwkRJwxlgiIDKOpNLYBsFHnx6DmW26Ih8" />
 </Head>
 export default function App({ Component, pageProps }) {
   return (
