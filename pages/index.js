@@ -1,6 +1,16 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
-
+<Head>
+  <title>Gearbox & Coir Mill Machinery Manufacturer | RS Engineering Products</title>
+  <meta name="description" content="RS Engineering Products specializes in gearboxes, defibering machines, and coir mill equipment engineered for performance and reliability." />
+  <meta name="keywords" content="Gearbox, Coir Machinery, Industrial Equipment, Defibering Machine, Conveyor Roller, Baling Press, RS Engineering" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="RS Engineering Products | Gearboxes & Coir Mill Machinery" />
+  <meta property="og:description" content="Leading manufacturer of coir mill equipment and custom gearboxes in India." />
+  <meta property="og:image" content="/images/logo.png" />
+  <meta property="og:url" content="https://rs-gear-products.vercel.app" />
+  <link rel="canonical" href="https://rs-gear-products.vercel.app" />
+</Head>
 export default function Home() {
   return (
     <>
@@ -117,8 +127,19 @@ export default function Home() {
         </section> */}
 
         {/* Industries Served */}
+        {/* <section className="py-5 bg-dark text-white">
+          <div className="container text-center">
+            <h2 className="mb-4">Industries We Serve</h2>
+            <div className="d-flex flex-wrap justify-content-center gap-3">
+              {['Textile', 'Cement', 'Steel', 'Power', 'Mining', 'Automation'].map((industry, idx) => (
+                <span key={idx} className="badge bg-secondary fs-6 px-3 py-2">
+                  {industry}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section> */}
       </main>
- 
 
       {/* Footer */}
       <footer className="bg-black text-white text-center py-4">
