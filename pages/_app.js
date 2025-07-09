@@ -11,6 +11,9 @@ import Head from 'next/head';
   <meta property="og:image" content="/images/logo.png" />
   <meta property="og:url" content="https://rs-gear-products.vercel.app" />
   <link rel="canonical" href="https://rs-gear-products.vercel.app" />
+
+  {/* ✅ Google Search Console verification meta tag */}
+  <meta name="google-site-verification" content="googled494bffc5af251be.html" />
 </Head>
 export default function App({ Component, pageProps }) {
   return (
