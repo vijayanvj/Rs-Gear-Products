@@ -7,7 +7,7 @@ import Head from 'next/head';
         <title>RS Gear Products – Industrial Gear & Gearbox Manufacturer in India</title>
         <meta name="title" content="RS Gear Products – Industrial Gear & Gearbox Manufacturer in India" />
         <meta name="description" content="RS Gear Products is a top manufacturer of industrial gearboxes, spur gears, bevel gears, and helical gears in India. Serving engineering, automotive, and heavy industries." />
-        <meta name="keywords" content="RS Gear Products, gear manufacturer India, industrial gearboxes, spur gear supplier, helical gear, bevel gear, gearbox manufacturer Chennai" />
+        <meta name="keywords" content="Gearbox, Coir Machinery, Industrial Equipment, Defibering Machine, Conveyor Roller, Baling Press, RS Engineering" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
