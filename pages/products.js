@@ -81,7 +81,7 @@ export default function Products() {
 
   return (
     <>
-  <Head>
+ <Head>
   <title>Gearbox & Coir Mill Machinery Manufacturer | RS Engineering Products</title>
   <meta name="description" content="RS Engineering Products specializes in gearboxes, defibering machines, and coir mill equipment engineered for performance and reliability." />
   <meta name="keywords" content="Gearbox, Coir Machinery, Industrial Equipment, Defibering Machine, Conveyor Roller, Baling Press, RS Engineering" />
