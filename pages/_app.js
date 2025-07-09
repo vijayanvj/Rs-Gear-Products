@@ -31,7 +31,7 @@ import Head from 'next/head';
         <link rel="canonical" href="https://rs-gear-products.vercel.app/" />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" />
       </Head>
 export default function App({ Component, pageProps }) {
   return (
