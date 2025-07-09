@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://rs-gear-products.vercel.app/</loc><lastmod>2025-07-09</lastmod><priority>1.0</priority></url>
-<url><loc>https://rs-gear-products.vercel.app/products</loc><lastmod>2025-07-09</lastmod><priority>0.8</priority></url>
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://rs-gear-products.vercel.app/</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Products List Page -->
+  <url>
+    <loc>https://rs-gear-products.vercel.app/products</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Individual Product Pages -->
 <url><loc>https://rs-gear-products.vercel.app/products/crown-type-gearbox-special-1-5-model</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
 <url><loc>https://rs-gear-products.vercel.app/products/heavy-duty-auto-feeder-1-600-ratio</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
 <url><loc>https://rs-gear-products.vercel.app/products/gearbox-400-series-1-17-1-35-models</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
@@ -41,4 +55,16 @@
     <lastmod>2025-07-09</lastmod>
     <priority>0.7</priority>
   </url>
+  <!-- Optional Additional Pages -->
+  <url>
+    <loc>https://rs-gear-products.vercel.app/contact</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rs-gear-products.vercel.app/about</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
