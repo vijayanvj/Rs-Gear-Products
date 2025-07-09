@@ -25,15 +25,12 @@ export default function About() {
               <div className="col-md-6">
                 <h2 className="mb-3">Who We Are</h2>
                 <p>
-                  RS ENGINEERING PRODUCTS is a pioneer in designing and manufacturing robust industrial machinery
-                  components that drive productivity and durability. For over25 years, we've served sectors
-                  like textile, steel, power, and cement with gearboxes, shafts, housings, and customized solutions.
-                </p>
-                <p>
-                  Our legacy is built on precision engineering, customer satisfaction, and a commitment to innovation.
-                  From small businesses to large industrial plants, our products are trusted by engineers and
-                  operators across India.
-                </p>
+  RS ENGINEERING PRODUCTS is a pioneer in designing and manufacturing robust industrial machinery components that enhance productivity and durability. With over 25 years of expertise, we specialize in gearboxes, shafts, housings, and customized machinery solutions.
+</p>
+<p>
+  Our legacy is built on precision engineering, customer satisfaction, and a commitment to innovation. From small enterprises to large-scale industrial plants, our products are trusted by engineers and operators across India for their reliability and performance.
+</p>
+
               </div>
               <div className="col-md-6 text-center">
                 <img src="/images/image14.png" alt="About RS Engineering" className="img-fluid rounded shadow" />
@@ -72,25 +69,29 @@ export default function About() {
         </section>
 
         {/* Experience Timeline */}
-        <section className="py-5">
+      <section className="py-5">
   <div className="container">
     <h2 className="text-center mb-4">Our Journey</h2>
     <div className="timeline border-start border-2 border-warning ps-4">
-      <div className="mb-3">
-        <h6>
-          <strong>1998</strong> – Revanth Engineering Works was established.<br />
-          We have manufactured over <strong>50 Defibering Machines</strong> to date.
-        </h6>
+      
+      <div className="mb-4">
+        <h6 className="fw-bold text-dark mb-1">1998 – Foundation of Revanth Engineering Works</h6>
+        <p className="mb-0 text-muted">
+          Established with a vision to support the coir industry, we began our journey by designing and delivering high-performance <strong>Defibering Machines</strong>. To date, we have successfully manufactured and commissioned over <strong>50 units</strong>.
+        </p>
       </div>
-      <div className="mb-3">
-        <h6>
-          <strong>2012</strong> – Began manufacturing specialized <strong>Gearboxes</strong> for Coir Mills.<br />
-          We have supplied more than <strong>2,000 Gearboxes</strong> across India.
-        </h6>
+
+      <div className="mb-4">
+        <h6 className="fw-bold text-dark mb-1">2012 – Expansion into Gearbox Manufacturing</h6>
+        <p className="mb-0 text-muted">
+          Marking a new era of growth, we ventured into precision-engineered <strong>Gearboxes</strong> tailored for Coir Mill applications. With a focus on durability and efficiency, we have supplied more than <strong>2,000 gearboxes</strong> across India, earning the trust of leading manufacturers.
+        </p>
       </div>
+
     </div>
   </div>
 </section>
+
 
 
         {/* Industries Served */}
@@ -112,7 +113,7 @@ export default function About() {
         {/* Footer */}
         <footer className="bg-dark text-white text-center py-4">
           <div className="container">
-            <p className="mb-0">© 2025 RS ENGINEERING PRODUCTS / Revanth Engineering Works. All rights reserved.</p>
+            <p className="mb-0">© 2025 RS ENGINEERING PRODUCTS. All rights reserved.</p>
           </div>
         </footer>
       </main>

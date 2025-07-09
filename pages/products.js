@@ -4,40 +4,83 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const allProducts = [
-  { img: '/images/image9.png', title: 'Crown Type Special (1:5)', desc: 'Specially made for Coir Mills.' },
-  { img: '/images/image13.png', title: 'Auto Feeder (1:600), Heavy Type (1:600)', desc: 'Double reduction drive.' },
-  { img: '/images/image12.png', title: 'Gear Box 400 Model (1:17) & (1:35)', desc: 'For Conveyor, Bunker, Screener.' },
-  { img: '/images/image11.png', title: 'Gear Box 300 Model (1:16) & (1:32)', desc: 'For Conveyor, Bunker, Screener.' },
-  { img: '/images/image1.png', title: 'Bearing Block', desc: 'Customized bearing block for Coir Mills.' },
-  { img: '/images/image2.png', title: 'Sallaidai Roller', desc: 'Designed for Coir Mills.' },
-  { img: '/images/image3.png', title: 'Specialized Roller', desc: 'Includes shaft for heavy-duty use.' },
-  { img: '/images/image4.png', title: 'Conveyor Cone Roller', desc: 'Available in 8" and 10" sizes.' },
-  { img: '/images/image6.png', title: 'Pulley', desc: 'Sizes: 8×1B, 10×1B, 12×1B, 14×1B, 16×1B, 20×2B, 24×2B.' },
-  { img: '/images/image14.png', title: 'Defibering Machine', desc: 'Efficient processing of bristle fibers.' },
-  { img: '/images/image15.png', title: 'Screener', desc: 'Precision screening for coir material.' },
-  { img: '/images/image16.png', title: 'Crusher', desc: 'Heavy-duty crushing for coir operations.' },
-  { img: '/images/image17.png', title: 'Coir Curling Machine', desc: 'Used for curled coir rope manufacturing.' },
-  { img: '/images/image18.png', title: 'Cleaner', desc: 'Removes impurities from coir fiber.' },
-  { img: '/images/image19.png', title: 'Baling Press', desc: 'Suitable for packing coir and other materials.' }
+  {
+    img: '/images/image9.png',
+    title: 'Crown Type Gearbox – Special 1:5 Model',
+    desc: 'Engineered for coir mills, this crown-type gearbox ensures high torque transmission with precision gearing, ideal for intensive load applications.'
+  },
+  {
+    img: '/images/image13.png',
+    title: 'Heavy-Duty Auto Feeder – 1:600 Ratio',
+    desc: 'Heavy-duty auto feeder unit with double reduction mechanism, delivering smooth, consistent fiber feeding for high-capacity operations.'
+  },
+  {
+    img: '/images/image12.png',
+    title: 'Gearbox 400 Series – 1:17 & 1:35 Models',
+    desc: 'Heavy-duty gearbox designed for conveyor, bunker, and screener systems, ensuring reliable speed reduction and load handling.'
+  },
+  {
+    img: '/images/image11.png',
+    title: 'Gearbox 300 Series – 1:16 & 1:32 Models',
+    desc: 'Compact and robust gearbox suitable for bunker, conveyor, and screener drives, offering optimal balance of performance and durability.'
+  },
+  {
+    img: '/images/image1.png',
+    title: 'Heavy-Duty Bearing Block',
+    desc: 'Precision-crafted bearing block for coir mill operations, designed for seamless alignment and long-lasting support under tough conditions.'
+  },
+  {
+    img: '/images/image2.png',
+    title: 'Sallaidai Roller – Coir Mill Edition',
+    desc: 'Specialized roller for fiber alignment and handling in coir processing systems, built for strength and consistency.'
+  },
+  {
+    img: '/images/image3.png',
+    title: 'Industrial Roller with Shaft',
+    desc: 'Includes integrated shaft, crafted for robust performance in continuous coir processing applications.'
+  },
+  {
+    img: '/images/image4.png',
+    title: 'Cone Conveyor Roller – 8" & 10"',
+    desc: 'High-precision cone roller available in 8" and 10" variants, ensuring smooth material flow and reduced friction.'
+  },
+  {
+    img: '/images/image6.png',
+    title: 'Multi-Size Pulley – 8×1B to 24×2B',
+    desc: 'Industrial-grade pulley wheels available in multiple sizes: 8×1B, 10×1B, 12×1B, 14×1B, 16×1B, 20×2B, and 24×2B. Designed for vibration-free power transmission, these pulleys offer high strength, dimensional accuracy, and long-lasting performance across various coir mill and industrial machinery applications.'
+  },
+  {
+    img: '/images/image14.png',
+    title: 'High-Speed Defibering Machine',
+    desc: 'Efficient and rugged machine for bristle fiber extraction, delivering consistent output with minimal fiber damage.'
+  },
+  {
+    img: '/images/image15.png',
+    title: 'Precision Coir Screener',
+    desc: 'High-capacity screener unit designed to filter and separate coir materials with maximum precision and reliability.'
+  },
+  {
+    img: '/images/image16.png',
+    title: 'Fiber Crusher – Heavy Duty',
+    desc: 'Industrial-grade crusher engineered to break down husks and coir material into processable fiber for downstream equipment.'
+  },
+  {
+    img: '/images/image17.png',
+    title: 'Coir Curling Machine – Rope Maker',
+    desc: 'Purpose-built for manufacturing curled coir rope, offering high output and superior curl uniformity.'
+  },
+  {
+    img: '/images/image18.png',
+    title: 'Coir Fiber Cleaner',
+    desc: 'Essential cleaning unit for removing dust and impurities from coir fiber, improving product quality and efficiency.'
+  },
+  {
+    img: '/images/image19.png',
+    title: 'Hydraulic Baling Press',
+    desc: 'Hydraulic baling press designed to compact coir fiber and other materials into uniform, transport-ready bundles.'
+  }
 ];
 
-// const allProducts = [
-//   { img: '/images/image9.png', title: 'Crown Type Special (1:5)', desc: 'Specialy made for Coir Mill.' },
-//   { img: '/images/image12.png', title: 'Auto Feeder (1:600) , heavy type ( 1:600)', desc: 'Double Reduction.' },
-//   { img: '/images/image11.png', title: '', desc: 'Conveyor, Bunker , Scrrener.' },
-//   { img: '/images/image13.png', title: 'Gear Box 300 Model (1:16) & (1:32)', desc: 'Conveyor ,Bunker , Scrrener..' },
-//   { img: '/images/image1.png', title: 'Bearing Block', desc: 'Customized Bearing Block for Coir Mils.' },
-//   { img: '/images/image2.png', title: 'Sallaidai Roller', desc: 'For Coir Mils.' },
-//   { img: '/images/image3.png', title: 'Specialiced Roller', desc: 'With Shaft.' },
-//   { img: '/images/image4.png', title: 'Conveyor Cone Roller', desc: '8 Inch , 10 Inch .' },
-//   { img: '/images/image6.png', title: 'Pully ', desc: '(8*1 B) ,(10*1 B),(12*1 B),(14*1 B),(16*1 B),(20*2 B),(24*2 B)' },
-//   { img: '/images/image14.png', title: 'DE Fibring Machine ', desc: 'For Bristle Fibers.' },
-//   { img: '/images/image15.png', title: 'Screener', desc: '' },
-//   { img: '/images/image16.png', title: 'Crusher', desc: '' },
-//   { img: '/images/image17.png', title: 'Coir Curling Machine', desc: '' },
-//   { img: '/images/image18.png', title: 'Cleaner', desc: '' },
-//   { img: '/images/image19.png', title: 'Baling Press', desc: 'Special for any Items.' },
-// ];
 
 export default function Products() {
   const [modal, setModal] = useState({ show: false, title: '', desc: '', img: '' });
@@ -62,10 +105,20 @@ export default function Products() {
         <div className="row g-4">
           {paginatedProducts.map((product, idx) => (
             <div className="col-sm-6 col-md-4" key={idx}>
-              <div className="card h-100 shadow-sm" onClick={() => openImage(product)} style={{ cursor: 'pointer' }}>
-                <Image src={product.img} alt={product.title} width={300} height={200} className="card-img-top object-fit-contain" />
+              <div
+                className="card h-100 shadow-sm"
+                onClick={() => openImage(product)}
+                style={{ cursor: 'pointer' }}
+              >
+                <Image
+                  src={product.img}
+                  alt={product.title}
+                  width={300}
+                  height={200}
+                  className="card-img-top object-fit-contain"
+                />
                 <div className="card-body text-center">
-                  <h5 className="card-title">{product.title}</h5>
+                  <h5 className="card-title fw-bold text-dark">{product.title}</h5>
                 </div>
               </div>
             </div>
@@ -74,58 +127,69 @@ export default function Products() {
 
         {/* Pagination */}
         <div className="d-flex justify-content-center mt-5 gap-3">
-          <button className="btn btn-outline-dark" onClick={() => setPage(p => Math.max(p - 1, 1))} disabled={page === 1}>Previous</button>
+          <button
+            className="btn btn-outline-dark"
+            onClick={() => setPage((p) => Math.max(p - 1, 1))}
+            disabled={page === 1}
+          >
+            Previous
+          </button>
           <span className="align-self-center">Page {page} of {totalPages}</span>
-          <button className="btn btn-outline-dark" onClick={() => setPage(p => Math.min(p + 1, totalPages))} disabled={page === totalPages}>Next</button>
+          <button
+            className="btn btn-outline-dark"
+            onClick={() => setPage((p) => Math.min(p + 1, totalPages))}
+            disabled={page === totalPages}
+          >
+            Next
+          </button>
         </div>
 
         {/* Modal */}
         {modal.show && (
-  <div
-    className="modal show d-block"
-    tabIndex={-1}
-    style={{
-      backgroundColor: 'rgba(0,0,0,0.8)',
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      width: '100%',
-      height: '100%',
-      zIndex: 1050,
-    }}
-    onClick={closeModal}
-  >
-    <div
-      className="modal-dialog modal-lg modal-dialog-centered"
-      onClick={(e) => e.stopPropagation()} // Prevent closing when clicking modal content
-    >
-      <div className="modal-content p-3">
-        <div className="modal-header border-0">
-          <h5 className="modal-title">{modal.title}</h5>
-          <button type="button" className="btn-close" onClick={closeModal}></button>
-        </div>
-        <div className="modal-body text-center">
-          <div className="position-relative w-100" style={{ maxWidth: '100%', height: 'auto' }}>
-            <Image
-              src={modal.img}
-              alt={modal.title}
-              width={600}
-              height={400}
-              className="img-fluid"
-              style={{ objectFit: 'contain' }}
-              onError={(e) => {
-                e.currentTarget.src = '/images/fallback.png'; // add a fallback image in public/images
-              }}
-              priority
-            />
+          <div
+            className="modal show d-block"
+            tabIndex={-1}
+            style={{
+              backgroundColor: 'rgba(0,0,0,0.8)',
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              zIndex: 1050,
+            }}
+            onClick={closeModal}
+          >
+            <div
+              className="modal-dialog modal-lg modal-dialog-centered"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="modal-content p-3">
+                <div className="modal-header border-0">
+                  <h5 className="modal-title fw-bold text-primary">{modal.title}</h5>
+                  <button type="button" className="btn-close" onClick={closeModal}></button>
+                </div>
+                <div className="modal-body text-center">
+                  <div className="position-relative w-100" style={{ maxWidth: '100%', height: 'auto' }}>
+                    <Image
+                      src={modal.img}
+                      alt={modal.title}
+                      width={600}
+                      height={400}
+                      className="img-fluid"
+                      style={{ objectFit: 'contain' }}
+                      onError={(e) => {
+                        e.currentTarget.src = '/images/fallback.png'; // Add a fallback image in public/images
+                      }}
+                      priority
+                    />
+                  </div>
+                  <p className="mt-3">{modal.desc}</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <p className="mt-3">{modal.desc}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-)}
-
+        )}
       </main>
     </>
   );
