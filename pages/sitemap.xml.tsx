@@ -1,35 +1,17 @@
-// pages/sitemap.xml.tsx
-export async function getServerSideProps({ res }: any) {
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url><loc>https://rs-gear-products.vercel.app/</loc><lastmod>2025-07-09</lastmod><priority>1.0</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products</loc><lastmod>2025-07-09</lastmod><priority>0.8</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/crown-type-gearbox-special-1-5-model</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/heavy-duty-auto-feeder-1-600-ratio</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/gearbox-400-series-1-17-1-35-models</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/gearbox-300-series-1-16-1-32-models</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/heavy-duty-bearing-block</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/sallaidai-roller-coir-mill-edition</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/industrial-roller-with-shaft</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/cone-conveyor-roller-8-10</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/multi-size-pulley-8x1b-to-24x2b</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/high-speed-defibering-machine</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/precision-coir-screener</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/fiber-crusher-heavy-duty</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/coir-curling-machine-rope-maker</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/coir-fiber-cleaner</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/products/hydraulic-baling-press</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/about</loc><lastmod>2025-07-09</lastmod><priority>0.6</priority></url>
-    <url><loc>https://rs-gear-products.vercel.app/contact</loc><lastmod>2025-07-09</lastmod><priority>0.6</priority></url>
-  </urlset>`;
-
-  res.setHeader('Content-Type', 'application/xml');
-  res.write(sitemap);
-  res.end();
-
-  return { props: {} };
-}
-
-export default function Sitemap() {
-  return null;
+{
+  "name": "my-nextjs-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "next": "14.1.3",
+    "next-sitemap": "^4.2.3",
+    "nodemailer": "^7.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
