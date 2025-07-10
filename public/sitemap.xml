@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://rs-gear-products.vercel.app/</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Products List Page -->
+  <url>
+    <loc>https://rs-gear-products.vercel.app/products</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Individual Product Pages -->
+<url><loc>https://rs-gear-products.vercel.app/products/crown-type-gearbox-special-1-5-model</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/heavy-duty-auto-feeder-1-600-ratio</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/gearbox-400-series-1-17-1-35-models</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/gearbox-300-series-1-16-1-32-models</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/heavy-duty-bearing-block</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/sallaidai-roller-coir-mill-edition</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/industrial-roller-with-shaft</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/cone-conveyor-roller-8-10</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://rs-gear-products.vercel.app/products/multi-size-pulley-8x1b-to-24x2b</loc><lastmod>2025-07-09</lastmod><priority>0.7</priority></url>
+ <url>
+    <loc>https://rs-gear-products.vercel.app/products/high-speed-defibering-machine</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rs-gear-products.vercel.app/products/precision-coir-screener</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rs-gear-products.vercel.app/products/fiber-crusher-heavy-duty</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rs-gear-products.vercel.app/products/coir-curling-machine-rope-maker</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rs-gear-products.vercel.app/products/coir-fiber-cleaner</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rs-gear-products.vercel.app/products/hydraulic-baling-press</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <!-- Optional Additional Pages -->
+  <url>
+    <loc>https://rs-gear-products.vercel.app/contact</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rs-gear-products.vercel.app/about</loc>
+    <lastmod>2025-07-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
