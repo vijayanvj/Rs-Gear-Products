@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://rs-gear-products.vercel.app/sitemap.xml
