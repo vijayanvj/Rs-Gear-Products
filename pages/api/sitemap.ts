@@ -1,3 +1,4 @@
+
 // pages/api/sitemap.ts
 import type { NextApiRequest, NextApiResponse } from 'next';
 
@@ -12,8 +13,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     <priority>1.0</priority>
   </url>
 
-
-  
   <!-- Products Page -->
   <url>
     <loc>https://rs-gear-products.vercel.app/products</loc>
