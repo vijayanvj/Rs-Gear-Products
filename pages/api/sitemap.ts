@@ -13,14 +13,14 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     <priority>1.0</priority>
   </url>
 
-  <!-- Products Page -->
+
   <url>
     <loc>https://rs-gear-products.vercel.app/products</loc>
     <lastmod>2025-07-13</lastmod>
     <priority>0.8</priority>
   </url>
 
-  <!-- Product URLs -->
+ 
   <url><loc>https://rs-gear-products.vercel.app/products/crown-type-gearbox-special-1-5-model</loc><lastmod>2025-07-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://rs-gear-products.vercel.app/products/heavy-duty-auto-feeder-1-600-ratio</loc><lastmod>2025-07-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://rs-gear-products.vercel.app/products/gearbox-400-series-1-17-1-35-models</loc><lastmod>2025-07-13</lastmod><priority>0.7</priority></url>
