@@ -56,7 +56,7 @@ export default function Home() {
       We  Export all the Produts.
     </p>
     <a href="/products" className="btn btn-warning btn-lg">
-      Explore Products
+      Explore   Products
     </a>
   </div>
 </section>
